@@ -11,12 +11,13 @@
 #slideshow div{
 	position: absolute;
 	padding-top: 10px;
+	margin: 0 auto;
 }
 
 div img{
 	height: 100%;
 	width: auto;
-	margin: auto;
+	margin: 0 auto;
 }
 
 @media all and (max-width: 667px){
