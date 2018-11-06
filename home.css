@@ -23,7 +23,7 @@ div img{
 	font-family: Neuton;
 	margin-bottom: 10px;
 }
-@media all and (max-width: 576px){
+@media all and (max-width: 667px){
 	.hamburger{
 		display: none;
 	}

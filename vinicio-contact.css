@@ -46,10 +46,10 @@ option{
 	padding: 1%;
 }
 
-#bottom{
+/*#bottom{
 	margin-top: 12%;
 
-}
+}*/
 
 @media all and (max-width: 667px){
 	/*#bottom{
