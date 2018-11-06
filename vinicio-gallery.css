@@ -1,0 +1,125 @@
+#box{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.8);
+	border-radius: 0;
+	z-index: 2;
+		}
+
+#pic2{
+	display: block;
+	margin: 0 auto;
+	top: 5%;
+	height: 80%;
+	width: auto;
+	z-index: 2;
+	position: relative;
+		}
+
+#close{
+	display: inline-block;
+	height: 4%;
+	width: auto;
+	background-color: gray;
+	font: white;
+	font-size: 20px;
+	position: relative;
+	z-index: 2;
+	top: 5%;
+	margin-left: 65%;
+}
+
+#sidenav{
+	height: 100%;
+	width: 12%;
+	position: fixed;
+	z-index: 1;
+	top: 25%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	text-transform: uppercase;
+	background-color: white;
+}
+
+#portraits, #religion, #abstracts{
+	display: none;
+}
+
+#sidenav, #landscapes{
+	display: inline-block;
+}
+
+#cat1{
+	background-color: #C43718;
+	color: white;
+}
+
+.categories{
+	padding: 5% 0 5% 20%;
+	text-decoration: none;
+	list-style: none;
+	cursor: pointer;
+	font-family: Century;
+}
+
+img{
+	width: auto;
+	height: 300px;
+	margin: 2%;
+	cursor: pointer;
+}
+
+.images{
+	left: 12%;
+	position: absolute;
+	margin-right: 4%;
+	margin-top: 11%;
+	text-align: center;
+}
+
+
+@media all and (max-width: 576px){
+	#sidenav{
+		width: 100%;
+		height: auto;
+		font-size: 14px;
+		position: fixed;
+		padding-top: 0;
+		margin-top: 2%;
+	}
+
+	#cat1, #cat2, #cat3, #cat4{
+		display: inline-block;
+		margin-left: 1%;
+	}
+
+	.categories{
+		padding: 10px 5px 10px 5px;
+		text-align: center;
+	}
+
+	.images{
+		padding-top: 5%;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	img{
+		height: 200px;
+		width: auto;
+		max-width: 100%;
+		margin: 1%;
+		display: block;
+	}
+
+	#pic2{
+		height: 60%;
+		width: auto;
+		top: 15%;
+	}
+}

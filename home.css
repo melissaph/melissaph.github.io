@@ -1,0 +1,62 @@
+*{
+	background-color: white !important;
+}
+
+#copyright{
+	text-align: center;
+	font-family: Neuton;
+	margin-bottom: 10px;
+}
+
+#slideshow{
+	height: 520px;
+	margin-top: 10%;
+}
+
+#slideshow div{
+	height: 500px;
+	width: auto;
+	position: absolute;
+	left: 26%;
+	margin-top: 10px;
+}
+
+div img{
+	height: 500px;
+}
+
+@media all and (max-width: 576px){
+	.hamburger{
+		display: none;
+	}
+
+	.mobileNav{
+		display: block;
+	}
+
+	#header{
+		font-size: 48px;
+	}
+
+	#slideshow div{
+		height: auto;
+		width: 100%;
+		left: 0;
+		padding: 0;
+		margin: 0;
+	}
+
+	#slideshow{
+		height: 400px;
+	}
+
+	div img{
+		height: 300px;
+		padding: 0 1% 0 1%;
+	}
+
+	#copyright{
+		margin-top: 2px;
+	}
+
+}

@@ -1,0 +1,80 @@
+#form{
+	/*margin: 3% 0 0 33%;*/
+	text-align: center;
+}
+
+#email{
+	width: 35%;
+	border: 1px black solid;
+}
+
+.subject{
+	width: 35%;
+	background-color: black;
+	color: white;
+}
+
+option{
+	background-color: black;
+	color: white;
+}
+
+#paragraph{
+	border-color: black;
+}
+
+#request{
+	font-family: "olivier";
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2%;
+}
+
+#response{
+	color: red;
+	text-align: center;
+/*	margin: 3% 0 3% 5%;*/
+}
+
+#btn{
+	/*margin-left: 53%;*/
+	width: 9%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 1%;
+}
+
+#bottom{
+	margin-top: 12%;
+
+}
+
+
+
+@media all and (max-width: 576px){
+	#form{
+		margin: 2%;
+	}
+
+	#paragraph{
+		max-width: 100%;
+	}
+
+	#email, .subject{
+		font-size: 14px;
+		width: 60%;
+	}
+
+	#btn{
+		width: 25%;
+		font-size: 14px;
+		padding: 0;
+	}
+
+	#request{
+		font-size: 18px;
+	}
+}
