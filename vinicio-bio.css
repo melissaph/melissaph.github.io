@@ -21,9 +21,9 @@ p{
 	cursor: pointer;
 }
 
-#bottom{
+/*#bottom{
 	margin-top: 12%;
-}
+}*/
 
 img{
 	max-height: 100%;
@@ -54,8 +54,8 @@ span{
 	#pictures{
 		height: 8em;
 	}
-
+/*
 	#bottom{
 		margin-top: 25%;
-	}
+	}*/
 }

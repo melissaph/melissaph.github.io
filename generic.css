@@ -13,7 +13,7 @@ body{
 	height: 100px;
 }
 
-#top-banner{
+/*#top-banner{
 	position: fixed;
 	top: 0;
 	text-align: center;
@@ -22,7 +22,7 @@ body{
 	width: 100%;
 	background-color: white;
 }
-
+*/
 .hamburger{
 	list-style: none;
 	font-size: 20px;
@@ -67,18 +67,18 @@ nav a:hover{
 	#header{
 		font-size: 48px;
 	}
-
+/*
 	#top-banner{
 		text-align: center;
 		width: 100%;
 		background-color: white;
 		position: fixed;
 		z-index: 2;
-}
+}*/
 
-	#image-banner{
+/*	#image-banner{
 		margin-top: 42%;
-	}
+	}*/
 
 	#pictures{
 		padding-left: 2%;

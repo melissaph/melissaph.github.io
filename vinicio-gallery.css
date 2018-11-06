@@ -75,10 +75,10 @@ img{
 }
 
 .images{
-	left: 12%;
+/*	left: 12%;*/
 	position: absolute;
 	margin-right: 4%;
-	margin-top: 11%;
+/*	margin-top: 11%;*/
 	text-align: center;
 }
 
@@ -88,13 +88,14 @@ img{
 		width: 100%;
 		height: auto;
 		font-size: 14px;
-		position: fixed;
+		position: absolute;
 		padding-top: 0;
 	}
 
 	#cat1, #cat2, #cat3, #cat4{
 		display: inline-block;
 		margin-left: 1%;
+		margin-bottom: 1%;
 	}
 
 	.categories{
