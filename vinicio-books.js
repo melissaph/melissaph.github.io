@@ -35,13 +35,12 @@ $("#sum1").click(function(){
 	$("#synopsis1").slideToggle(500)
 
 	if(flag == true){
-	$("span").html("⌃")
-	$("span").css("fontSize", "14px")
+	$("#span1").html("")
 	$("#book2").css("top", "60%")
 		flag = false
 	}else{
-		$("span").html("⌄")
-		$("span").css("fontSize", "24px")
+		$("#span1").html("⌄")
+		$("#span1").css("fontSize", "24px")
 		flag = true
 		$("#book2").css("top", "30%")
 	}
@@ -51,15 +50,14 @@ $("#sum2").click(function(){
 	$("#synopsis2").slideToggle(500)
 
 	if(flag == true){
-	$("span").html("⌃")
-	$("span").css("fontSize", "14px")
-	$("#book3").css("top", "60%")
+	$("#span2").html("")
+	$("#book3").css("marginTop", "7%")
 		flag = false
 	}else{
-		$("span").html("⌄")
-		$("span").css("fontSize", "24px")
+		$("#span2").html("⌄")
+		$("#span2").css("fontSize", "24px")
 		flag = true
-		$("#book3").css("top", "30%")
+		$("#book3").css("marginTop", "0")
 	}
 })
 
@@ -67,19 +65,18 @@ $("#sum3").click(function(){
 	$("#synopsis3").slideToggle(500)
 
 	if(flag == true){
-	$("span").html("⌃")
-	$("span").css("fontSize", "14px")
+	$("#span3").html("")
 		flag = false
 	}else{
-		$("span").html("⌄")
-		$("span").css("fontSize", "24px")
+		$("#span3").html("⌄")
+		$("#span3").css("fontSize", "24px")
 		flag = true
 	}
 })
 
 
-$("#sum1").on("click", function(){
-	("#synopsis1").slideToggle()
-	("span").html("^")
-})
+// $("#sum1").on("click", function(){
+// 	("#synopsis1").slideToggle()
+// 	("span").html("^")
+// })
 
