@@ -9,6 +9,7 @@ $(".mobileNav").click(function(){
 	$("#slideshow").css("top", "45%")
 	$("#sidenav").css("top", "45%")
 	$("#form").css("top", "45%")
+	$("#bottom").css("marginTop", "60%")
 		flag = false
 	}else{
 		$(".mobileNav").html("+")
@@ -16,5 +17,6 @@ $(".mobileNav").click(function(){
 		$(".images").css("top", "25%")
 		$("#sidenav").css("top", "25%")
 		$("#form").css("top", "25%")
+		$("#bottom").css("marginTop", "25%")
 	}
 })
