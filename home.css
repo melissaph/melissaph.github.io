@@ -2,26 +2,17 @@
 	background-color: white !important;
 }
 
-#slideshow{
-	height: 60%;
-}
-
 #slideshow div{
 	position: absolute;
-	text-align: center;
 	padding-top: 10px;
 }
 
 div img{
-	height: 500px;
-	text-align: center;
+	height: 100%
+	width: auto;
+	margin: auto;
 }
 
-#copyright{
-	text-align: center;
-	font-family: Neuton;
-	margin-bottom: 10px;
-}
 @media all and (max-width: 667px){
 	.hamburger{
 		display: none;
