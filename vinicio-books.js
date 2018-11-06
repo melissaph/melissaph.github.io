@@ -29,19 +29,21 @@ $("#back3").mouseleave(function(){
 })
 
 
-var flag = true
+var flag1 = true
+var flag2 = true
+var flag3  = true
 
 $("#sum1").click(function(){
 	$("#synopsis1").slideToggle(500)
 
-	if(flag == true){
+	if(flag1 == true){
 	$("#span1").html("")
 	$("#book2").css("top", "60%")
-		flag = false
+		flag1 = false
 	}else{
 		$("#span1").html("⌄")
 		$("#span1").css("fontSize", "24px")
-		flag = true
+		flag1 = true
 		$("#book2").css("top", "30%")
 	}
 })
@@ -49,14 +51,14 @@ $("#sum1").click(function(){
 $("#sum2").click(function(){
 	$("#synopsis2").slideToggle(500)
 
-	if(flag == true){
+	if(flag2 == true){
 	$("#span2").html("")
-	$("#book3").css("marginTop", "7%")
-		flag = false
+	$("#book3").css("marginTop", "52%")
+		flag2 = false
 	}else{
 		$("#span2").html("⌄")
 		$("#span2").css("fontSize", "24px")
-		flag = true
+		flag2 = true
 		$("#book3").css("marginTop", "0")
 	}
 })
@@ -64,13 +66,13 @@ $("#sum2").click(function(){
 $("#sum3").click(function(){
 	$("#synopsis3").slideToggle(500)
 
-	if(flag == true){
+	if(flag3 == true){
 	$("#span3").html("")
-		flag = false
+		flag3 = false
 	}else{
 		$("#span3").html("⌄")
 		$("#span3").css("fontSize", "24px")
-		flag = true
+		flag3 = true
 	}
 })
 

@@ -75,7 +75,7 @@ img{
 }
 
 .images{
-/*	left: 12%;*/
+	left: 12%;
 	position: absolute;
 	margin-right: 4%;
 /*	margin-top: 11%;*/
@@ -107,6 +107,7 @@ img{
 		padding-top: 5%;
 		margin-right: 0;
 		text-align: center;
+		left: 0;
 	}
 
 	img{
