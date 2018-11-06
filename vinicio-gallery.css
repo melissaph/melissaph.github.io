@@ -41,7 +41,7 @@
 	top: 25%;
 	left: 0;
 	overflow-x: hidden;
-	padding-top: 20px;
+	padding-top: 10px;
 	text-transform: uppercase;
 	background-color: white;
 }
@@ -90,7 +90,6 @@ img{
 		font-size: 14px;
 		position: fixed;
 		padding-top: 0;
-		margin-top: 2%;
 	}
 
 	#cat1, #cat2, #cat3, #cat4{
@@ -99,7 +98,7 @@ img{
 	}
 
 	.categories{
-		padding: 10px 5px 10px 5px;
+		padding: 5px;
 		text-align: center;
 	}
 
@@ -114,7 +113,7 @@ img{
 		width: auto;
 		max-width: 100%;
 		margin: 1%;
-		display: block;
+	/*	display: block;*/
 	}
 
 	#pic2{

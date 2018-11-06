@@ -9,11 +9,6 @@ p{
 	color: black;
 }
 
-div{
-	margin: 0;
-/*	padding: 30px 0 30px 0;*/
-}
-
 .para-links{
 	color: #C43718;
 	text-decoration: none;
@@ -29,15 +24,16 @@ div{
 	margin-top: 12%;
 }
 
-#image1, #image2{
-	height: 400px;
+img{
+	height: 100%;
 	width: auto;
 	padding: 10px;
 }
 
 #pictures{
 	text-align: center;
-	display: inline-block
+	display: inline-block;
+	height: 300px;
 }
 
 #copyright{
@@ -52,14 +48,12 @@ span{
 }
 
 @media all and (max-width: 576px){
-	#image1, #image2{
-	height: 180px;
-	width: auto;
-	padding: 10px;
-}
-
 	p{
 		font-size: 16px;
+	}
+
+	#pictures{
+		height: 200px;
 	}
 
 }

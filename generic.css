@@ -72,11 +72,15 @@ nav a:hover{
 		text-align: center;
 		width: 100%;
 		background-color: white;
-		position: relative;
+		position: fixed;
 		z-index: 1;
 }
 
-#pictures{
-	padding-left: 2%;
-}
+	#image-banner{
+		margin-top: 40%;
+	}
+
+	#pictures{
+		padding-left: 2%;
+	}
 }
