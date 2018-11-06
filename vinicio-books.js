@@ -53,7 +53,7 @@ $("#sum2").click(function(){
 
 	if(flag2 == true){
 	$("#span2").html("")
-	$("#book3").css("marginTop", "7%")
+	$("#book3").css("marginTop", "10%")
 		flag2 = false
 	}else{
 		$("#span2").html("⌄")
