@@ -80,7 +80,7 @@ span{
 	display: none;
 }
 
-@media all and (max-width: 576px){
+@media all and (max-width: 667px){
 	img, .bookinfo{
 		clear: both;
 }
