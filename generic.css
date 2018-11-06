@@ -26,7 +26,7 @@ body{
 .hamburger{
 	list-style: none;
 	font-size: 20px;
-	font-family: Century;
+	font-family: Neuton, Century;
 	cursor: pointer;
 	text-align: center;
 }
