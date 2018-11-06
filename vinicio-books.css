@@ -60,6 +60,7 @@ li{
 	font-weight: bold;
 	text-transform: underline;
 	padding-left: 400px;
+	cursor: pointer;
 }
 
 span{

@@ -7,7 +7,7 @@
 	height: 100%;
 	background-color: rgba(0,0,0, 0.8);
 	border-radius: 0;
-	z-index: 2;
+	z-index: 3;
 		}
 
 #pic2{
@@ -16,7 +16,7 @@
 	top: 5%;
 	height: 80%;
 	width: auto;
-	z-index: 2;
+	z-index: 3;
 	position: relative;
 		}
 
