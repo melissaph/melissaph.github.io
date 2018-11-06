@@ -32,11 +32,9 @@ option{
 #response{
 	color: red;
 	text-align: center;
-/*	margin: 3% 0 3% 5%;*/
 }
 
 #btn{
-	/*margin-left: 53%;*/
 	width: 9%;
 	text-align: center;
 	background-color: black;
@@ -46,20 +44,7 @@ option{
 	padding: 1%;
 }
 
-/*#bottom{
-	margin-top: 12%;
-
-}*/
-
 @media all and (max-width: 667px){
-	/*#bottom{
-		top: 25%;
-	}*/
-/*
-	#form{
-		position: absolute;
-	}*/
-
 	#paragraph{
 		max-width: 100%;
 	}
