@@ -2,13 +2,19 @@
 	background-color: white !important;
 }
 
+#slideshow{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+
 #slideshow div{
 	position: absolute;
 	padding-top: 10px;
 }
 
 div img{
-	height: 100%
+	height: 100%;
 	width: auto;
 	margin: auto;
 }
