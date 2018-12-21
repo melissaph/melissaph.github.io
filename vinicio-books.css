@@ -4,18 +4,15 @@
 
 .book-title{
 	font-size: 32px;
-	font-weight: bold;
 	text-transform: uppercase;
 	padding-left: 10px;
 	margin:0;
 	padding-bottom: 2%;
-	font-family: Arial Black;
 }
 
 .books{
 	padding:0;
 	margin: 0;
-	border-top: 4px solid black;
 	padding-left: 20px;
 }
 
@@ -49,7 +46,7 @@ li{
 	display: block;
 }
 
-.sum{
+/*.sum{
 	padding-top: 5%;
 	font-size: 16px;
 	font-weight: bold;
@@ -58,18 +55,32 @@ li{
 	cursor: pointer;
 }
 
-span{
-	font-size: 24px;
-}
-
 #back1, #back2, #back3{
 	display: none;
 	width: 100%;
 	max-height: 95%;
 }
 
-.synopsis{
+/*.synopsis{
 	padding: 0 120px 0 120px;
+	display: none;
+}*/
+
+#sidenav{
+	height: 100%;
+	width: 12%;
+	position: fixed;
+	z-index: 1;
+	top: 25%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 10px;
+	text-transform: uppercase;
+	background-color: white;
+}
+
+
+#book2, #book3{
 	display: none;
 }
 

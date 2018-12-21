@@ -14,11 +14,11 @@ button.onclick = function(){
 
 	if(validateEmail(email)){
 	console.log("info");
-	response.innerHTML = "Thank you! We will contact you in 2-4 business days.";
+	response.innerHTML = "Gracias! Te responderemos en 2-4 dias.";
 	form.style.display = "none"
 
 }else{
 	console.log("empty");
-	response.innerHTML = "Please provide a valid e-mail address."
+	response.innerHTML = "Por favor de una direccion de correo electronico valida."
 }
 }

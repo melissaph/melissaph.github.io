@@ -1,19 +1,13 @@
-*{
-	background-color: white !important;
-}
-
 #slideshow{
-	position: relative;
-	width: 900px;
-	margin: 0 auto;
-	/*left: 5%;*/
+	width: 100%;
 }
 
 #slideshow div{
 	position: absolute;
 	padding-top: 10px;
 	margin: 0 auto;
-	text-align: center;
+	width: 100%;
+	height: auto;
 }
 
 div img{
@@ -34,9 +28,4 @@ div img{
 	#header{
 		font-size: 48px;
 	}
-
-	#slideshow{
-		width: 400px;
-	}
-
 }
