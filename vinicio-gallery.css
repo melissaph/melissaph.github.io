@@ -35,7 +35,7 @@
 
 #sidenav{
 	height: 100%;
-	width: 12%;
+	width: 15%;
 	position: fixed;
 	z-index: 1;
 	top: 25%;
@@ -75,7 +75,7 @@ img{
 }
 
 .images{
-	left: 12%;
+	left: 15%;
 	position: absolute;
 	margin-right: 4%;
 /*	margin-top: 11%;*/
